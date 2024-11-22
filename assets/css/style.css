@@ -1,0 +1,60 @@
+/* header */
+
+.header {
+  background-image: url(../image/banner-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  padding: 30px 0;
+}
+
+.header .inner-wrap {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+  height: 80px;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header .inner-wrap .inner-menu ul{
+  display: flex;
+}
+
+.header .inner-wrap .inner-menu ul li{
+  margin: 20px;
+}
+
+.header .inner-wrap .inner-menu ul li a{
+  text-decoration: none;
+  color: var(--dark);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.header .inner-wrap .inner-menu ul li a:hover{
+  color: var(--pink);
+}
+
+
+
+li{
+  list-style: none;
+}
+
+/* end header */
+
+/* section one  */
+.section-one {
+  background-image: url(../image/banner-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: calc(100vh - 80px); /* Tùy chỉnh */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* End section one */
