@@ -51,7 +51,7 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
-  height: 100vh;
+  height: calc(100vh + 80px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -95,8 +95,83 @@ li {
   text-decoration: none;
 }
 
-
-
-
-
 /* End section one */
+
+/* section two */
+.section-two {
+  position: relative;
+  padding-bottom: 0px;
+  padding-top: 30px;
+  margin-top: -300px;
+  z-index: 9;
+}
+
+.section-two .row .col-xl-4 {
+  cursor: pointer;
+  display: flex;
+}
+
+
+.section-two .row .col-xl-4 .inner-box {
+  cursor: pointer;
+  display: block;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 48px 0px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 30px;
+  background: rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 30px;
+  transition: 0.3s;
+}
+
+
+
+.section-two .row .col-xl-4 .inner-box .inner-icon {
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  margin: auto;
+  position: relative;
+  margin-bottom: 30px;
+  background: #8261ee;
+  border-radius: 50%;
+}
+
+.section-two .row .col-xl-4 .inner-box:hover .inner-icon{
+  background: #ff589e;
+}
+
+
+
+.section-two .row .col-xl-4 .inner-box .inner-icon img{
+  vertical-align: middle;
+  border-style: none;
+  overflow: clip;
+  object-fit: contain;
+}
+
+
+
+
+.section-two .row .col-xl-4 .inner-box .inner-title {
+  font-weight: 500;
+  font-size: 18px;
+  color: #1e1e1e;
+  letter-spacing: 0.7px;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 2;
+}
+
+.section-two .row .col-xl-4 .inner-box .inner-desc {
+  font-size: 13px;
+  font-weight: 400;
+  color: #777;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+  position: relative;
+  z-index: 2;
+}
+
+/* end section two */
