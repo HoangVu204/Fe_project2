@@ -175,3 +175,55 @@ li {
 }
 
 /* end section two */
+
+
+/* section three */
+.section-three .row{
+  margin-top: 80px;
+}
+
+
+.section-three .row .col-xl-6 {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
+}
+
+.section-three .row .col-xl-6 .inner-image{
+  width: 50%;
+  height: auto;
+  text-align: center;
+  margin-bottom: 80px;
+  
+}
+
+.section-three .row .col-xl-6 .inner-image img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; 
+}
+
+.section-three .row .col-xl-6 .inner-content .inner-title{
+  text-align: left;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.section-three .row .col-xl-6 .inner-content .inner-desc{
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  color: #777;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+  position: relative;
+}
+
+.section-three .inner-border-bottom{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+/* end section three */
